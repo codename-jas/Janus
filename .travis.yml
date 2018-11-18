@@ -1,8 +1,7 @@
 language: csharp
 solution: src/Janus.sln
 mono: none
-dotnet: 2.2.100-preview3
+dotnet: 2.1.500
 script:
-  - wget https://dot.net/v1/dotnet-install.sh
   - dotnet restore
   - dotnet build
