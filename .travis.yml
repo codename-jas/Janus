@@ -5,3 +5,5 @@ dotnet: 2.1.500
 script:
   - build/travis-build.sh
   - build/travis-test.sh
+after_success:
+  - build/travis-codecov.sh
