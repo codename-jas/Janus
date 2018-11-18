@@ -3,5 +3,5 @@ solution: src/Janus.sln
 mono: none
 dotnet: 2.1.500
 script:
-  - dotnet restore
-  - dotnet build
+  - dotnet restore ./src/Janus.sln
+  - dotnet build ./src/Janus.sln
