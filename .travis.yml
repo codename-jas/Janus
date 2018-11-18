@@ -5,3 +5,4 @@ dotnet: 2.1.500
 script:
   - dotnet restore ./src/Janus.sln
   - dotnet build ./src/Janus.sln
+  - dotnet test ./test/Janus.Core.Test/Janus.Core.Test.csproj /p:CollectCoverage=true
